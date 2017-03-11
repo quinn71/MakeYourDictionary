@@ -7,11 +7,13 @@ const clearButton = document.querySelector('.clear-button');
 const wordField = document.querySelector('input[name="word"]');
 const translationField = document.querySelector('input[name="translation"]');
 
-saveWordButton.addEventListener('click', addNewWord);
+saveWordButton.addEventListener('click', addWord);
+
 window.addEventListener('keydown', function (e) {
     if(e.keyCode !== 13) return;
-    addNewWord();
+    addWord();
 });
+
 showButton.addEventListener('click', showWordlist);
 hideButton.addEventListener('click', hideWordlist);
 clearButton.addEventListener('click', clearStorage);

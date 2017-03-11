@@ -1,29 +1,26 @@
-///test
+let dictionary = getDictionary();
 
 function getDictionary() {
-    let dictionary;
+    let dict;
     if(localStorage.dictionary) {
-        dictionary = new Map(JSON.parse(localStorage.dictionary));
+        dict = new Map(JSON.parse(localStorage.dictionary));
     }
-    else dictionary = new Map();
+    else dict = new Map();
 
-    return dictionary;
+    return dict;
 }
 
-function addToDictionary(word, translation) {
-    let dictionary = getDictionary();
-
-    dictionary.set(word, translation);
-
+function updateLocalStorage() {
     localStorage.dictionary = JSON.stringify([...dictionary]);
 }
 
-function addNewWord() {
+function addWord() {
 
     const word = wordField.value;
     const translation = translationField.value;
 
-    addToDictionary(word, translation);
+    dictionary.set(word, translation);
+    updateLocalStorage();
     showWordlist();
 
     wordField.value = '';
@@ -32,73 +29,23 @@ function addNewWord() {
     wordField.focus();
 }
 
-class WordList {
-
-    constructor (dictionary, DOMElem) {
-        this.DOMElem = DOMElem;
-        this.dictionary = dictionary;
-
-        if(!this.DOMElem) {
-            this.render();
-        }
-    }
-
-    render() {
-        this.DOMElem = document.createElement('div');
-        this.DOMElem.className = 'wordlist';
-        this.renderList();
-
-        this.DOMElem.onclick = function DeleteItem(e) {
-            console.log(e.target == '<img>');
-            // if(e.target !== HTMLImageElement) return;
-        }
-    }
-
-    renderList() {
-        const dictionary = this.dictionary;
-
-        dictionary.forEach((translation, word) => {
-            let list = this.DOMElem;
-            let field = document.createElement('div');
-            field.className = 'field';
-            let closeIcon = document.createElement('div');
-            closeIcon.className = 'close-icon';
-            field.innerHTML = word + ' - ' + translation;
-            field.appendChild(closeIcon);
-            list.appendChild(field);
-        });
-    }
-
-    refresh() {
-        this.DOMElem.innerHTML = '';
-        this.renderList();
-    }
-
-}
-
-
 function showWordlist() {
-    let dictionary = getDictionary();
+    
     let manageSection = document.querySelector('.manage-dictionary');
-    let elem = document.querySelector('.wordlist');
 
-    let wordlist = new WordList(dictionary, elem);
-
-    if(!elem) {
-        manageSection.appendChild(wordlist.DOMElem);
-    }
-
+    let wordlist = new WordList(dictionary);
+    manageSection.appendChild(wordlist.getElem());
     wordlist.refresh();
 
-    //wordlist.classList.remove('invisible');
+    wordlist.getElem().classList.remove('invisible');
 
-    //showButton.classList.add('hidden');
-    //hideButton.classList.remove('hidden');
+    showButton.classList.add('hidden');
+    hideButton.classList.remove('hidden');
 }
 
 function hideWordlist() {
-    let dictionaryField = document.querySelector('.wordlist');
-    dictionaryField.classList.add('invisible');
+    let wordlist = document.querySelector('.wordlist');
+    wordlist.classList.add('invisible');
 
     hideButton.classList.add('hidden');
     showButton.classList.remove('hidden');
@@ -106,13 +53,15 @@ function hideWordlist() {
 
 function clearStorage() {
     let confirmed = confirm("Are you sure?");
-    if(confirmed) delete localStorage.dictionary;
+    if(confirmed) {
+        dictionary.clear();
+        updateLocalStorage();
+    }
 
     showWordlist();
 }
 
 function showWordToRemember() {
-    let dictionary = getDictionary();
     const wordField = document.querySelector('.word-to-learn');
     let word;
     if(!dictionary) {
@@ -126,14 +75,11 @@ function showWordToRemember() {
 }
 
 function showTranslation() {
-    let dictionary = getDictionary();
     let word = document.querySelector('.word-to-learn').innerHTML;
     let translation = dictionary.get(word);
-
 }
 
 let prevRandNum;
-
 function getRandomWord(dictionary) {
     let randWord;
     let randNum = prevRandNum;
