@@ -1,0 +1,164 @@
+$col_lightblue: #4cb7f5;
+$col_darkblue: #009fc7;
+$col_grey: #aaaaaa;
+
+@mixin center-vertically {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 40px 0 0;
+}
+
+.logo-outer {
+  text-align: center;
+}
+
+.logo-outer:before,
+.logo-outer:after {
+  background: #000;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+
+  @media (max-width: 625px) {
+    display: none;
+  }
+}
+
+.logo-outer:before {
+  right: 1.5em;
+  margin-left: -50%;
+}
+
+.logo-outer:after {
+  left: 1.5em;
+  margin-right: -50%;
+}
+
+.hidden {
+  display: none;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+
+h1 {
+  text-align: center;
+  //text-transform: uppercase;
+}
+
+label,input {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+input {
+  border: 2px solid $col_lightblue;
+  border-radius: 5px;
+  height: 70px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  text-transform: capitalize;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border-color: $col_darkblue;
+  outline: none;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.button {
+  background: $col_grey;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: $col_lightblue
+}
+
+.button:focus {
+  outline: none;
+}
+
+.manage-dictionary {
+
+  .word-inputs, .control-buttons, .wordlist {
+    width: 340px;
+  }
+
+  .word-inputs {
+    margin-bottom: 20px;
+  }
+
+  .control-buttons {
+    justify-content: space-between;
+  }
+
+  .wordlist {
+    padding-top: 20px;
+    text-align: center;
+
+    .field {
+      border-bottom: 1px solid $col_grey;
+      position: relative;
+    }
+
+    .close-icon {
+      @include center-vertically();
+
+      background: url('../img/icon_delete-icon.png');
+      background-size: 100% 100%;
+      right: 0;
+      height: 20px;
+      width: 20px;
+    }
+
+    .close-icon:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+}
+
+
+.train-dictionary {
+
+  .word-to-learn {
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .button:first-child {
+    margin-right: 5px;
+  }
+
+  .buttons-container {
+    justify-content: center;
+  }
+}

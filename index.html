@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Vladislav Logvinenko">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+    <title>Make your own dictionary</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-outer">
+                <span class="logo">MakeYourDictionary</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Practice your english by small steps</h1>
+            <div class="row">
+                <div class="outer manage-dictionary-outer col-xs-12 col-md-6">
+                    <div class="manage-dictionary">
+                        <form action="">
+                            <div class="word-inputs">
+                                <label for="word">Add new word to remember:</label>
+                                <input type="text" id="word" name="word" autocomplete="off">
+                                <label for="translation">and it's translation:</label>
+                                <input type="text" id="translation" name="translation" autocomplete="off">
+                            </div>
+                            <div class="buttons-container control-buttons">
+                                <button type="button" class="button add-word-button">Add</button>
+                                <button type="button" class="button clear-button">Clear</button>
+                                <button type="button" class="button show-button">Show</button>
+                                <button type="button" class="button hide-button hidden">Hide</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="outer train-dictionary-outer col-xs-12 col-md-6">
+                    <div class="train-dictionary">
+                        <div class="word-to-learn"></div>
+                        <div class="translation hidden"></div>
+                        <div class="buttons-container">
+                            <button type="button" class="button show-translation-button">Show translation</button>
+                            <button type="button" class="button next-word-button" disabled>Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="js/functions.js"></script>
+    <script src="js/script1.js"></script>
+</body>
+</html>

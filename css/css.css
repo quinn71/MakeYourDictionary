@@ -1,0 +1,112 @@
+body {
+  margin: 0; }
+
+header {
+  padding: 40px 0 0; }
+
+.logo-outer {
+  text-align: center; }
+
+.logo-outer:before,
+.logo-outer:after {
+  background: #000;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%; }
+  @media (max-width: 625px) {
+    .logo-outer:before,
+    .logo-outer:after {
+      display: none; } }
+
+.logo-outer:before {
+  right: 1.5em;
+  margin-left: -50%; }
+
+.logo-outer:after {
+  left: 1.5em;
+  margin-right: -50%; }
+
+.hidden {
+  display: none; }
+
+.invisible {
+  visibility: hidden; }
+
+h1 {
+  text-align: center; }
+
+label, input {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 100%; }
+
+input {
+  border: 2px solid #4cb7f5;
+  border-radius: 5px;
+  height: 70px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  text-transform: capitalize;
+  transition: all 0.3s; }
+
+input:focus {
+  border-color: #009fc7;
+  outline: none; }
+
+.buttons-container {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.button {
+  background: #aaaaaa;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  transition: all 0.2s;
+  text-transform: uppercase; }
+
+.button:hover {
+  background-color: #4cb7f5; }
+
+.button:focus {
+  outline: none; }
+
+.manage-dictionary .word-inputs, .manage-dictionary .control-buttons, .manage-dictionary .wordlist {
+  width: 340px; }
+.manage-dictionary .word-inputs {
+  margin-bottom: 20px; }
+.manage-dictionary .control-buttons {
+  justify-content: space-between; }
+.manage-dictionary .wordlist {
+  padding-top: 20px;
+  text-align: center; }
+  .manage-dictionary .wordlist .field {
+    border-bottom: 1px solid #aaaaaa;
+    position: relative; }
+  .manage-dictionary .wordlist .close-icon {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    background: url("../img/icon_delete-icon.png");
+    background-size: 100% 100%;
+    right: 0;
+    height: 20px;
+    width: 20px; }
+  .manage-dictionary .wordlist .close-icon:hover {
+    cursor: pointer;
+    opacity: 0.8; }
+
+.train-dictionary .word-to-learn {
+  margin-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase; }
+.train-dictionary .button:first-child {
+  margin-right: 5px; }
+.train-dictionary .buttons-container {
+  justify-content: center; }
+
+/*# sourceMappingURL=css.css.map */
