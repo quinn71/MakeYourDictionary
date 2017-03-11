@@ -77,6 +77,8 @@ function showWordToRemember() {
 function showTranslation() {
     let word = document.querySelector('.word-to-learn').innerHTML;
     let translation = dictionary.get(word);
+
+    alert(translation);
 }
 
 let prevRandNum;
