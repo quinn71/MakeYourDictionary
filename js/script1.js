@@ -17,11 +17,10 @@ window.addEventListener('keydown', function (e) {
 showButton.addEventListener('click', showWordlist);
 hideButton.addEventListener('click', hideWordlist);
 clearButton.addEventListener('click', clearStorage);
-nextButton.addEventListener('click', showWordToRemember);
+nextButton.addEventListener('click', showNextWord);
 translationButton.addEventListener('click', showTranslation);
 translationButton.addEventListener('click', showTranslation);
 
 showWordlist();
-
-showWordToRemember();
+showNextWord();
 

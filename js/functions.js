@@ -1,3 +1,8 @@
+Map.prototype.isEmpty = function() {
+  return !this.size;
+};
+
+
 let dictionary = getDictionary();
 
 function getDictionary() {
@@ -27,6 +32,10 @@ function addWord() {
     translationField.value = '';
 
     wordField.focus();
+
+    if(dictionary.size == 1) {
+        showNextWord();
+    }
 }
 
 function showWordlist() {
@@ -59,19 +68,20 @@ function clearStorage() {
     }
 
     showWordlist();
+    showNextWord();
 }
 
-function showWordToRemember() {
+function showNextWord() {
     const wordField = document.querySelector('.word-to-learn');
     let word;
-    if(!dictionary) {
+    if(dictionary.isEmpty()) {
         wordField.innerHTML = 'you have no words to remember!';
     }
     else {
         word = getRandomWord(dictionary);
+        wordField.innerHTML = word;
     }
 
-    wordField.innerHTML = word;
 }
 
 function showTranslation() {
@@ -86,11 +96,12 @@ function getRandomWord(dictionary) {
     let randWord;
     let randNum = prevRandNum;
 
-    while(randNum === prevRandNum) {
-        randNum = Math.round(Math.random() * dictionary.size-1);
+
+
+    while (randNum === prevRandNum) {
+        randNum = Math.round(Math.random() * (dictionary.size - 1));
     }
-
-
+    console.log('prev:' + prevRandNum + ', cur:' + randNum);
     prevRandNum = randNum;
 
     for(let word of dictionary.keys()) {

@@ -37,6 +37,11 @@ class WordList {
                 fieldToRemove.parentNode.removeChild(fieldToRemove);
                 updateLocalStorage();
                 self.refresh();
+
+                let wordInLearnField = document.querySelector('.word-to-learn').innerHTML;
+                if(wordToRemove == wordInLearnField) {
+                    showNextWord();
+                }
             }
         }
     }
