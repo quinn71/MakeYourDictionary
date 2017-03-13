@@ -42,6 +42,7 @@ function showWordlist() {
     
     let manageSection = document.querySelector('.manage-dictionary');
 
+
     let wordlist = new WordList(dictionary);
     manageSection.appendChild(wordlist.getElem());
     wordlist.refresh();
@@ -100,6 +101,7 @@ function getRandomWord(dictionary) {
 
     while (randNum === prevRandNum) {
         randNum = Math.round(Math.random() * (dictionary.size - 1));
+        if(dictionary.size == 1) break; // exclude the case while we can't generate random number different from previous
     }
     console.log('prev:' + prevRandNum + ', cur:' + randNum);
     prevRandNum = randNum;

@@ -12,6 +12,7 @@ $col_grey: #aaaaaa;
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -106,9 +107,14 @@ input:focus {
 }
 
 .manage-dictionary {
+  margin-bottom: 40px;
 
-  .word-inputs, .control-buttons, .wordlist {
+  form, .word-inputs, .control-buttons, .wordlist {
     width: 340px;
+  }
+
+  form, .wordlist {
+    margin: auto;
   }
 
   .word-inputs {

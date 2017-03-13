@@ -7,15 +7,15 @@ html {
     font-size: 10px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 991px) {
     html {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
     html {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
