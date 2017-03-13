@@ -182,8 +182,9 @@ input:focus {
     }
 
     .close-icon:hover {
+      background-image: url('../img/icon_delete-icon-blue.png');
+      background-position: 0px -20px;
       cursor: pointer;
-      opacity: 0.8;
     }
   }
 }
