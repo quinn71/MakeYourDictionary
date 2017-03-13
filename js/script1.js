@@ -1,3 +1,10 @@
+
+function animate() {
+    document.getElementsByTagName( "html" )[0].classList.remove( "loading" );
+}
+
+setTimeout(animate, 500);
+
 const saveWordButton = document.querySelector('.add-word-button');
 const showButton = document.querySelector('.show-button');
 const hideButton = document.querySelector('.hide-button');

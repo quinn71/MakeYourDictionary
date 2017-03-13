@@ -19,6 +19,13 @@ html {
     }
 }
 
+@media (max-width: 350px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+
 .logo {
     font-family: 'Ranga', cursive;
     font-size: 6rem;

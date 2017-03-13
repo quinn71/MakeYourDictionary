@@ -7,16 +7,50 @@ $col_grey: #aaaaaa;
   transform: translateY(-50%);
   top: 50%;
 }
-
-
-
+//html {
+//  -webkit-transition: background-color 1s;
+//  transition: background-color 1s;
+//}
+//html, body {
+//  /* For the loading indicator to be vertically centered ensure */
+//  /* the html and body elements take up the full viewport */
+//  min-height: 100%;
+//}
+//html.loading {
+//  /* Replace #333 with the background-color of your choice */
+//  /* Replace loading.gif with the loading image of your choice */
+//  background: #fff; // url('loading.gif') no-repeat 50% 50%;
+//
+//  /* Ensures that the transition only runs in one direction */
+//  -webkit-transition: background-color 0s;
+//  transition: background-color 0s;
+//}
+//body {
+//  -webkit-transition: opacity 3s ease-in;
+//  transition: opacity 3s;// ease-in;
+//}
+//
+//html.loading body {
+//  /* Make the contents of the body opaque during loading */
+//  opacity: 0;
+//
+//  /* Ensures that the transition only runs in one direction */
+//  -webkit-transition: opacity 0s;
+//  transition: opacity 0s;
+//}
 body {
   margin: 0;
-  overflow-x: hidden;
+ // overflow-x: hidden;
 }
 
 header {
   padding: 40px 0 0;
+}
+
+.container {
+  @media (max-width: 345px) {
+    width: 100vw;
+  }
 }
 
 .logo-outer {
@@ -31,7 +65,7 @@ header {
   height: 2px;
   position: relative;
   vertical-align: middle;
-  width: 50%;
+  width: 30%;
 
   @media (max-width: 625px) {
     display: none;
@@ -55,7 +89,6 @@ header {
 .invisible {
   visibility: hidden;
 }
-
 
 h1 {
   text-align: center;
@@ -111,6 +144,10 @@ input:focus {
 
   form, .word-inputs, .control-buttons, .wordlist {
     width: 340px;
+
+    @media(max-width: 345px) {
+      width: 95%;
+    }
   }
 
   form, .wordlist {
@@ -153,7 +190,7 @@ input:focus {
 
 
 .train-dictionary {
-
+  margin-bottom: 30px;
   .word-to-learn {
     margin-bottom: 25px;
     text-align: center;

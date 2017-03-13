@@ -1,9 +1,12 @@
 body {
-  margin: 0;
-  overflow-x: hidden; }
+  margin: 0; }
 
 header {
   padding: 40px 0 0; }
+
+@media (max-width: 345px) {
+  .container {
+    width: 100vw; } }
 
 .logo-outer {
   text-align: center; }
@@ -16,7 +19,7 @@ header {
   height: 2px;
   position: relative;
   vertical-align: middle;
-  width: 50%; }
+  width: 30%; }
   @media (max-width: 625px) {
     .logo-outer:before,
     .logo-outer:after {
@@ -80,6 +83,9 @@ input:focus {
   margin-bottom: 40px; }
   .manage-dictionary form, .manage-dictionary .word-inputs, .manage-dictionary .control-buttons, .manage-dictionary .wordlist {
     width: 340px; }
+    @media (max-width: 345px) {
+      .manage-dictionary form, .manage-dictionary .word-inputs, .manage-dictionary .control-buttons, .manage-dictionary .wordlist {
+        width: 95%; } }
   .manage-dictionary form, .manage-dictionary .wordlist {
     margin: auto; }
   .manage-dictionary .word-inputs {
@@ -105,13 +111,15 @@ input:focus {
       cursor: pointer;
       opacity: 0.8; }
 
-.train-dictionary .word-to-learn {
-  margin-bottom: 25px;
-  text-align: center;
-  text-transform: uppercase; }
-.train-dictionary .button:first-child {
-  margin-right: 5px; }
-.train-dictionary .buttons-container {
-  justify-content: center; }
+.train-dictionary {
+  margin-bottom: 30px; }
+  .train-dictionary .word-to-learn {
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase; }
+  .train-dictionary .button:first-child {
+    margin-right: 5px; }
+  .train-dictionary .buttons-container {
+    justify-content: center; }
 
 /*# sourceMappingURL=css.css.map */
