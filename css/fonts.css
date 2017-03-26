@@ -67,3 +67,8 @@ input {
     font-family: 'Roboto', sans-serif;
     font-size: 2.2rem;
 }
+
+span.helper {
+    font-size: 0.5em;
+    font-family: 'Oswald', sans-serif;
+}
