@@ -1,0 +1,53 @@
+.word-trainer {
+  background: #fff;
+  border: 5px solid #aaaaaa;
+  padding: 40px 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  z-index: 9999; }
+  .word-trainer label, .word-trainer input {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%; }
+  .word-trainer input {
+    border: 2px solid #4cb7f5;
+    border-radius: 5px;
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    transition: all 0.3s; }
+  .word-trainer input:focus {
+    border-color: #009fc7;
+    outline: none; }
+  .word-trainer .word {
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase; }
+  .word-trainer .button:first-child {
+    margin-right: 5px; }
+  .word-trainer .buttons-container {
+    justify-content: center; }
+  .word-trainer .close-icon {
+    background: url("../img/icon_delete.png") no-repeat;
+    background-size: cover;
+    border: 0;
+    outline: 0;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px; }
+  .word-trainer .selector select {
+    border: 2px solid #4cb7f5;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100%; }
+  .word-trainer select:focus {
+    outline: none; }
+
+/*# sourceMappingURL=WordTrainerView.css.map */

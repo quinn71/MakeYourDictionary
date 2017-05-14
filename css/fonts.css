@@ -25,6 +25,11 @@ html {
     }
 }
 
+.entry p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
 
 .logo {
     font-family: 'Ranga', cursive;
@@ -32,10 +37,17 @@ html {
     line-height: 100%;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Oswald', sans-serif;
+}
+
+h1 {
     font-size: 2.5rem;
     margin: 0 0 40px;
+}
+
+h2 {
+    font-size: 3.5rem;
 }
 
 label,input {
@@ -71,4 +83,14 @@ input {
 span.helper {
     font-size: 0.5em;
     font-family: 'Oswald', sans-serif;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
 }

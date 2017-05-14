@@ -1,55 +1,48 @@
 $col_lightblue: #4cb7f5;
 $col_darkblue: #009fc7;
 $col_grey: #aaaaaa;
+$col_lightgrey: #F6F6F6;
 
-@mixin center-vertically {
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
+.element {
+  padding-top: 40px;
+  height: 100px;
+  transition: visibility 2.5s;
+  width: 100px;
 }
-//html {
-//  -webkit-transition: background-color 1s;
-//  transition: background-color 1s;
-//}
-//html, body {
-//  /* For the loading indicator to be vertically centered ensure */
-//  /* the html and body elements take up the full viewport */
-//  min-height: 100%;
-//}
-//html.loading {
-//  /* Replace #333 with the background-color of your choice */
-//  /* Replace loading.gif with the loading image of your choice */
-//  background: #fff; // url('loading.gif') no-repeat 50% 50%;
-//
-//  /* Ensures that the transition only runs in one direction */
-//  -webkit-transition: background-color 0s;
-//  transition: background-color 0s;
-//}
-//body {
-//  -webkit-transition: opacity 3s ease-in;
-//  transition: opacity 3s;// ease-in;
-//}
-//
-//html.loading body {
-//  /* Make the contents of the body opaque during loading */
-//  opacity: 0;
-//
-//  /* Ensures that the transition only runs in one direction */
-//  -webkit-transition: opacity 0s;
-//  transition: opacity 0s;
-//}
+
+
 body {
   margin: 0;
- // overflow-x: hidden;
 }
 
 header {
   padding: 40px 0 0;
+  margin-bottom: 60px;
 }
 
 .container {
   @media (max-width: 345px) {
     width: 100vw;
+  }
+}
+
+.row {
+  margin-bottom: 60px;
+}
+
+
+
+.go-to-wordlist {
+  margin:auto;
+  text-align: center;
+  width: 80%;
+
+  a,
+  a:hover,
+  a:visited,
+  a:focus {
+    color: #fff;
+    text-decoration: none;
   }
 }
 
@@ -87,35 +80,22 @@ header {
 }
 
 .invisible {
-  visibility: hidden;
+  opacity: 0;
 }
 
 h1 {
   text-align: center;
-  //text-transform: uppercase;
 }
 
-label,input {
-  display: block;
-  margin: auto;
+.word-manager-outer,
+.word-trainer-outer {
   text-align: center;
-  width: 100%;
 }
 
-input {
-  border: 2px solid $col_lightblue;
-  border-radius: 5px;
-  height: 70px;
-  margin-bottom: 10px;
-  padding: 10px 5px;
-  text-transform: capitalize;
-  transition: all 0.3s;
+.description {
+  margin-bottom: 25px;
 }
 
-input:focus {
-  border-color: $col_darkblue;
-  outline: none;
-}
 
 .buttons-container {
   display: flex;
@@ -139,70 +119,23 @@ input:focus {
   outline: none;
 }
 
-.manage-dictionary {
-  margin-bottom: 40px;
-
-  form, .word-inputs, .control-buttons, .wordlist {
-    width: 340px;
-
-    @media(max-width: 345px) {
-      width: 95%;
-    }
-  }
-
-  form, .wordlist {
-    margin: auto;
-  }
-
-  .word-inputs {
-    margin-bottom: 20px;
-  }
-
-  .control-buttons {
-    justify-content: space-between;
-  }
-
-  .wordlist {
-    padding-top: 20px;
-    text-align: center;
-
-    .field {
-      border-bottom: 1px solid $col_grey;
-      position: relative;
-    }
-
-    .close-icon {
-      @include center-vertically();
-
-      background: url('../img/icon_delete-icon.png');
-      background-size: 100% 100%;
-      right: 0;
-      height: 20px;
-      width: 20px;
-    }
-
-    .close-icon:hover {
-      background-image: url('../img/icon_delete-icon-blue.png');
-      background-position: 0px -20px;
-      cursor: pointer;
-    }
-  }
+.full-vocabulary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
 }
 
-
-.train-dictionary {
-  margin-bottom: 30px;
-  .word-to-learn {
-    margin-bottom: 25px;
+footer {
+  border-top: 1px solid $col_grey;
+  background: $col_lightgrey;
+  padding: 30px;
+  .footer-inner {
     text-align: center;
-    text-transform: uppercase;
   }
 
-  .button:first-child {
-    margin-right: 5px;
-  }
 
-  .buttons-container {
-    justify-content: center;
-  }
+
 }

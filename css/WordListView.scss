@@ -1,0 +1,58 @@
+$col_lightblue: #4cb7f5;
+$col_darkblue: #009fc7;
+$col_grey: #aaaaaa;
+
+@mixin center-vertically {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.wordlist-outer {
+  display: inline-block;
+  margin-bottom: 20px;
+
+
+  .wordlist {
+    margin: auto;
+  }
+
+  .wordlist {
+    padding-top: 20px;
+    text-align: center;
+
+    .field {
+      border-bottom: 1px solid $col_grey;
+      position: relative;
+      padding: 0 40px 0 0 ;
+    }
+
+    .close-icon {
+      background: url('../img/icon_delete.png');
+    }
+
+    .close-icon,
+    .dropdown-icon {
+      @include center-vertically();
+
+      background-size: 100% 100%;
+      right: 10px;
+      height: 20px;
+      width: 20px;
+    }
+
+    .new {
+      color: red;
+    }
+
+    .dropdown-icon {
+
+    }
+
+    .close-icon:hover {
+      background-image: url('../img/icon_delete-blue.png');
+      background-position: 0px -20px;
+      cursor: pointer;
+    }
+  }
+}

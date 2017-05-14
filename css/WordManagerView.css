@@ -1,0 +1,58 @@
+.word-manager {
+  background: #fff;
+  border: 5px solid #aaaaaa;
+  padding: 40px 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  z-index: 9999; }
+  .word-manager form, .word-manager .word-inputs, .word-manager .control-buttons, .word-manager .wordlist {
+    width: 340px; }
+    @media (max-width: 345px) {
+      .word-manager form, .word-manager .word-inputs, .word-manager .control-buttons, .word-manager .wordlist {
+        width: 95%; } }
+  .word-manager form {
+    margin: auto; }
+  .word-manager .selector, .word-manager .create {
+    margin-bottom: 30px; }
+  .word-manager .word-inputs {
+    margin-bottom: 20px; }
+  .word-manager label, .word-manager input {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%; }
+  .word-manager .create-label {
+    display: inline;
+    width: auto; }
+  .word-manager input {
+    border: 2px solid #4cb7f5;
+    border-radius: 5px;
+    height: 60px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s; }
+  .word-manager .control-buttons {
+    justify-content: space-between; }
+  .word-manager .close-icon {
+    background: url("../img/icon_delete.png") no-repeat;
+    background-size: cover;
+    border: 0;
+    outline: 0;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px; }
+  .word-manager .selector select {
+    border: 2px solid #4cb7f5;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100%; }
+  .word-manager input:focus, .word-manager select:focus {
+    border-color: #009fc7;
+    outline: none; }
+
+/*# sourceMappingURL=WordManagerView.css.map */

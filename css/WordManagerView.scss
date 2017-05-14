@@ -1,0 +1,84 @@
+$col_lightblue: #4cb7f5;
+$col_darkblue: #009fc7;
+$col_grey: #aaaaaa;
+
+.word-manager {
+  background: #fff;
+  border: 5px solid $col_grey;
+  padding: 40px 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  transition: all 1s;
+  z-index: 9999;
+
+  form, .word-inputs, .control-buttons, .wordlist {
+    width: 340px;
+
+    @media(max-width: 345px) {
+      width: 95%;
+    }
+  }
+
+  form {
+    margin: auto;
+  }
+
+  .selector, .create {
+    margin-bottom: 30px;
+  }
+
+  .word-inputs {
+    margin-bottom: 20px;
+  }
+
+  label, input {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .create-label {
+    display: inline;
+    width: auto;
+  }
+
+  input {
+    border: 2px solid $col_lightblue;
+    border-radius: 5px;
+    height: 60px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+
+
+
+  .control-buttons {
+    justify-content: space-between;
+  }
+
+  .close-icon {
+    background: url('../img/icon_delete.png') no-repeat;
+    background-size: cover;
+    border: 0; outline: 0;
+    height: 25px;
+    position: absolute;
+    top: 10px; right: 10px;
+    width: 25px;
+  }
+
+  .selector select {
+    border: 2px solid $col_lightblue;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100%;
+  }
+
+  input:focus, select:focus {
+    border-color: $col_darkblue;
+    outline: none;
+  }
+}

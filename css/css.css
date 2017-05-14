@@ -1,12 +1,33 @@
+.element {
+  padding-top: 40px;
+  height: 100px;
+  transition: visibility 2.5s;
+  width: 100px; }
+
 body {
   margin: 0; }
 
 header {
-  padding: 40px 0 0; }
+  padding: 40px 0 0;
+  margin-bottom: 60px; }
 
 @media (max-width: 345px) {
   .container {
     width: 100vw; } }
+
+.row {
+  margin-bottom: 60px; }
+
+.go-to-wordlist {
+  margin: auto;
+  text-align: center;
+  width: 80%; }
+  .go-to-wordlist a,
+  .go-to-wordlist a:hover,
+  .go-to-wordlist a:visited,
+  .go-to-wordlist a:focus {
+    color: #fff;
+    text-decoration: none; }
 
 .logo-outer {
   text-align: center; }
@@ -37,29 +58,17 @@ header {
   display: none; }
 
 .invisible {
-  visibility: hidden; }
+  opacity: 0; }
 
 h1 {
   text-align: center; }
 
-label, input {
-  display: block;
-  margin: auto;
-  text-align: center;
-  width: 100%; }
+.word-manager-outer,
+.word-trainer-outer {
+  text-align: center; }
 
-input {
-  border: 2px solid #4cb7f5;
-  border-radius: 5px;
-  height: 70px;
-  margin-bottom: 10px;
-  padding: 10px 5px;
-  text-transform: capitalize;
-  transition: all 0.3s; }
-
-input:focus {
-  border-color: #009fc7;
-  outline: none; }
+.description {
+  margin-bottom: 25px; }
 
 .buttons-container {
   display: flex;
@@ -79,48 +88,19 @@ input:focus {
 .button:focus {
   outline: none; }
 
-.manage-dictionary {
-  margin-bottom: 40px; }
-  .manage-dictionary form, .manage-dictionary .word-inputs, .manage-dictionary .control-buttons, .manage-dictionary .wordlist {
-    width: 340px; }
-    @media (max-width: 345px) {
-      .manage-dictionary form, .manage-dictionary .word-inputs, .manage-dictionary .control-buttons, .manage-dictionary .wordlist {
-        width: 95%; } }
-  .manage-dictionary form, .manage-dictionary .wordlist {
-    margin: auto; }
-  .manage-dictionary .word-inputs {
-    margin-bottom: 20px; }
-  .manage-dictionary .control-buttons {
-    justify-content: space-between; }
-  .manage-dictionary .wordlist {
-    padding-top: 20px;
-    text-align: center; }
-    .manage-dictionary .wordlist .field {
-      border-bottom: 1px solid #aaaaaa;
-      position: relative; }
-    .manage-dictionary .wordlist .close-icon {
-      position: absolute;
-      transform: translateY(-50%);
-      top: 50%;
-      background: url("../img/icon_delete-icon.png");
-      background-size: 100% 100%;
-      right: 0;
-      height: 20px;
-      width: 20px; }
-    .manage-dictionary .wordlist .close-icon:hover {
-      background-image: url("../img/icon_delete-icon-blue.png");
-      background-position: 0px -20px;
-      cursor: pointer; }
+.full-vocabulary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%; }
 
-.train-dictionary {
-  margin-bottom: 30px; }
-  .train-dictionary .word-to-learn {
-    margin-bottom: 25px;
-    text-align: center;
-    text-transform: uppercase; }
-  .train-dictionary .button:first-child {
-    margin-right: 5px; }
-  .train-dictionary .buttons-container {
-    justify-content: center; }
+footer {
+  border-top: 1px solid #aaaaaa;
+  background: #F6F6F6;
+  padding: 30px; }
+  footer .footer-inner {
+    text-align: center; }
 
 /*# sourceMappingURL=css.css.map */

@@ -1,0 +1,36 @@
+.cover {
+  background: #fff;
+  height: 100vh;
+  position: fixed;
+  padding-top: 15vh;
+  top: 0; left: 0;
+  width: 100vw;
+  z-index: 9999;
+
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+
+  .entry-text {
+    width: 60%;
+    margin: auto;
+    opacity: 0;
+    -webkit-transition: opacity 3.5s ease-in-out;
+    -moz-transition: opacity 3.5s ease-in-out;
+    transition: opacity 3.5s ease-in-out;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 8vh;
+    }
+
+    p:last-of-type {
+      margin-bottom: 10vh;
+    }
+  }
+}
+
+.loaded .entry-text {
+  opacity: 1 !important;
+}
+
