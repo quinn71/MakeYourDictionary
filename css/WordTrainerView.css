@@ -1,5 +1,5 @@
 .word-trainer {
-  background: #fff;
+  background: #ffffff;
   border: 5px solid #aaaaaa;
   padding: 40px 20px;
   position: fixed;
@@ -7,7 +7,11 @@
   top: 50%;
   transform: translate(-50%, -50%);
   transition: all 1s;
-  z-index: 9999; }
+  z-index: 9999;
+  -webkit-animation-name: effectiveAppearance;
+  -webkit-animation-duration: 0.7s;
+  animation-name: effectiveAppearance;
+  animation-duration: 0.7s; }
   .word-trainer label, .word-trainer input {
     display: block;
     margin: auto;
@@ -32,6 +36,13 @@
     margin-right: 5px; }
   .word-trainer .buttons-container {
     justify-content: center; }
+  .word-trainer .button.blocked {
+    background-color: #fff;
+    border: 1px solid #F6F6F6;
+    color: #F6F6F6;
+    cursor: not-allowed; }
+  .word-trainer .button.blocked:hover {
+    background-color: initial; }
   .word-trainer .close-icon {
     background: url("../img/icon_delete.png") no-repeat;
     background-size: cover;

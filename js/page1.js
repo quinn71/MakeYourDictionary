@@ -12,7 +12,6 @@ function LS() {
   dictionaries.C = [...dictC];
   dictionaries.D = [...dictD];
 
-
   localStorage.dictionaries = JSON.stringify(dictionaries);
 }
 

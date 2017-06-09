@@ -1,9 +1,11 @@
 $col_lightblue: #4cb7f5;
 $col_darkblue: #009fc7;
 $col_grey: #aaaaaa;
+$col_lightgrey: #F6F6F6;
+
 
 .word-trainer {
-  background: #fff;
+  background: #ffffff;
   border: 5px solid $col_grey;
   padding: 40px 20px;
   position: fixed;
@@ -12,6 +14,11 @@ $col_grey: #aaaaaa;
   transform: translate(-50%,-50%);
   transition: all 1s;
   z-index: 9999;
+
+  -webkit-animation-name: effectiveAppearance;
+  -webkit-animation-duration: 0.7s;
+  animation-name: effectiveAppearance;
+  animation-duration: 0.7s;
 
   label,input {
     display: block;
@@ -48,6 +55,17 @@ $col_grey: #aaaaaa;
 
   .buttons-container {
     justify-content: center;
+  }
+
+  .button.blocked {
+    background-color: #fff;
+    border: 1px solid $col_lightgrey;
+    color: $col_lightgrey;
+    cursor: not-allowed;
+  }
+
+  .button.blocked:hover {
+    background-color: initial;
   }
 
   .close-icon {

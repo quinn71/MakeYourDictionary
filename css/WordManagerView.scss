@@ -2,6 +2,17 @@ $col_lightblue: #4cb7f5;
 $col_darkblue: #009fc7;
 $col_grey: #aaaaaa;
 
+@-webkit-keyframes effectiveAppearance {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes effectiveAppearance {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+
 .word-manager {
   background: #fff;
   border: 5px solid $col_grey;
@@ -12,6 +23,12 @@ $col_grey: #aaaaaa;
   transform: translate(-50%,-50%);
   transition: all 1s;
   z-index: 9999;
+
+  -webkit-animation-name: effectiveAppearance;
+  -webkit-animation-duration: 0.7s;
+  animation-name: effectiveAppearance;
+  animation-duration: 0.7s;
+
 
   form, .word-inputs, .control-buttons, .wordlist {
     width: 340px;

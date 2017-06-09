@@ -1,31 +1,120 @@
+@keyframes show {
+  from {
+    opacity: 0;
+    margin-bottom: -20px; }
+  to {
+    opacity: 1;
+    margin-bottom: initial; } }
+@keyframes hide {
+  from {
+    opacity: 1;
+    margin-bottom: initial; }
+  to {
+    opacity: 0;
+    margin-bottom: -20px; } }
+@keyframes delete {
+  from {
+    opacity: 1;
+    margin-left: initial; }
+  to {
+    opacity: 0;
+    margin-left: -50px; } }
+.main-outer {
+  animation-name: show;
+  animation-duration: 2s; }
+
+.flexbox-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%; }
+
 .wordlist-outer {
-  display: inline-block;
-  margin-bottom: 20px; }
-  .wordlist-outer .wordlist {
-    margin: auto; }
-  .wordlist-outer .wordlist {
-    padding-top: 20px;
-    text-align: center; }
-    .wordlist-outer .wordlist .field {
-      border-bottom: 1px solid #aaaaaa;
-      position: relative;
-      padding: 0 40px 0 0; }
-    .wordlist-outer .wordlist .close-icon {
-      background: url("../img/icon_delete.png"); }
-    .wordlist-outer .wordlist .close-icon,
-    .wordlist-outer .wordlist .dropdown-icon {
-      position: absolute;
-      transform: translateY(-50%);
-      top: 50%;
-      background-size: 100% 100%;
-      right: 10px;
-      height: 20px;
-      width: 20px; }
-    .wordlist-outer .wordlist .new {
-      color: red; }
-    .wordlist-outer .wordlist .close-icon:hover {
-      background-image: url("../img/icon_delete-blue.png");
-      background-position: 0px -20px;
-      cursor: pointer; }
+  margin-bottom: 20px;
+  width: 21%; }
+  @media (max-width: 780px) {
+    .wordlist-outer {
+      width: 30%; } }
+  @media (max-width: 535px) {
+    .wordlist-outer {
+      width: 45%; } }
+  @media (max-width: 370px) {
+    .wordlist-outer {
+      width: 100%; } }
+
+.wordlist {
+  width: 100%;
+  text-align: center;
+  margin: auto; }
+  .wordlist > * {
+    width: 100%; }
+  .wordlist .all-fields-outer {
+    overflow: hidden; }
+  .wordlist .field-outer .field {
+    border-bottom: 1px solid #aaaaaa;
+    position: relative;
+    padding: 0 40px 0 0; }
+  .wordlist .field-outer:last-of-type .field {
+    border-bottom: none; }
+  .wordlist .field.closed {
+    border-bottom: none; }
+  .wordlist .close-icon {
+    background: url("../img/icon_delete.png"); }
+  .wordlist .clear-icon {
+    background: url("../img/icon_clean.png"); }
+  .wordlist .delete-icon {
+    background: url("../img/icon_delete.png"); }
+  .wordlist .close-icon,
+  .wordlist .dropdown-icon,
+  .wordlist .clear-icon,
+  .wordlist .delete-icon {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    background-size: 100% 100%;
+    right: 10px;
+    height: 20px;
+    width: 20px; }
+  .wordlist .close-icon:hover,
+  .wordlist .dropdown-icon:hover,
+  .wordlist .clear-icon:hover,
+  .wordlist .delete-icon:hover {
+    cursor: pointer; }
+  .wordlist .clear-icon {
+    right: 40px; }
+  .wordlist .dictionary-name-outer {
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #4cb7f5;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    width: 100%; }
+  .wordlist .new {
+    color: red; }
+  .wordlist .close-icon:hover {
+    background-image: url("../img/icon_delete-blue.png");
+    background-position: 0px -20px;
+    cursor: pointer; }
+  .wordlist .toggle-list-button {
+    background-color: #F6F6F6;
+    background-size: 20% 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 0;
+    border-top: 1px solid #4cb7f5;
+    border-radius: 0 0 5px 5px;
+    height: 25px; }
+  .wordlist .toggle-list-button:focus {
+    outline: 0; }
+  .wordlist .toggle-list-button.closed {
+    border-top: 0; }
+
+.wordlist .toggle-list-button.opened {
+  background-image: url("../img/icon_dropup.png"); }
+.wordlist .toggle-list-button.closed {
+  background-image: url("../img/icon_dropdown.png"); }
+.wordlist .toggle-list-button.opened:hover {
+  background-image: url("../img/icon_dropup-blue.png"); }
+.wordlist .toggle-list-button.closed:hover {
+  background-image: url("../img/icon_dropdown-blue.png"); }
 
 /*# sourceMappingURL=WordListView.css.map */

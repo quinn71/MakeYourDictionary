@@ -18,6 +18,8 @@ function LS() {
 
 
 const dictionaryModel = new DictionaryModel();
+const wordManagerView = new WordManagerView(dictionaryModel);
+const wordTrainerView = new WordTrainerView(dictionaryModel);
 const allExistingDictionaries = dictionaryModel.getAllDictionaries();
 const wordlistViews = [];
 
@@ -25,7 +27,7 @@ for (let dictionaryName in allExistingDictionaries) {
   if (allExistingDictionaries.hasOwnProperty(dictionaryName)) {
     const wordlist = new WordListView(dictionaryName, dictionaryModel);
     wordlistViews.push(wordlist);
-    const vocabulary = document.querySelector('.full-vocabulary');
+    const vocabulary = document.querySelector('.main-outer');
     const outer = document.createElement('div');
     outer.className = 'wordlist-outer';
     outer.appendChild(wordlist.getElem());
@@ -33,4 +35,4 @@ for (let dictionaryName in allExistingDictionaries) {
   }
 }
 
-const controller = new DictionaryController(dictionaryModel, ...wordlistViews);
+const controller = new DictionaryController(dictionaryModel, wordManagerView, wordTrainerView, ...wordlistViews);

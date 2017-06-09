@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/WordTrainerView.css">
   <link rel="stylesheet" href="css/entryText.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/popups.css">
 
   <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -26,31 +27,50 @@
 <header>
   <div class="container">
     <div class="logo-outer">
-      <span class="logo">MakeYourDictionary</span>
+      <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
     </div>
-    <h1>Practice your english by small steps</h1>
+    <nav class="menu-bar">
+      <div class="menu-icon hidden-sm hidden-md hidden-lg">
+        <img src="img/icon_menu.png" alt="">
+      </div>
+      <div class="menu-left hidden-xs">
+        <a href="index.html">Home</a>
+        <a href="page2.html">My vocabulary</a>
+        <a href="#" class="add-new-word-link">Add new words</a>
+        <a href="#" class="train-link">Train</a>
+      </div>
+      <div class="menu-right hidden-xs">
+        <a href="">About author</a>
+      </div>
+    </nav>
   </div>
 </header>
 <main>
-  <div class="cover">
+  <div class="cover hidden-xs">
     <div class="entry-text">
-      <h2>Amet dicta ducimus earum eos ipsa laboriosam maxime quidem sequi ut.</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi beatae consectetur consequuntur
-      dignissimos dolore dolorem est, expedita illum mollitia nam nemo nostrum odit omnis perferendis possimus quo quos
-      tempora, voluptatibus? Consequatur doloremque eaque eos exercitationem magnam neque reiciendis!</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, incidunt!</p>
-      <button type="button" class="button try-button">Try it now!</button>
+      <h2>Learning another language is like becoming another person. </h2>
+      <p>Regular expanding of your own vocabulary is very important for improving any foreign language. The more words you
+        know, the better you will understand the language and speak it, the more literate your speech will become. Many
+        who begin to learn the language, from the very beginning want to quickly learn the words to immediately be able
+        to speak a foreign language.However, they do not always succeed, because words can not jump into their heads.
+        You always need someone to put it there or put it into memory as in a computer. Fortunately, we have something to offer!
+      </p>
+      <p>Want to learn how to learn words quickly and easily? We will give you some useful feature for learning
+        new vocabulary. With using it problems with expanding your vocabulary will not bother you anymore. Click the button
+        below and see what the app does!</p>
+      <button type="button" class="button try-button">Go and see!</button>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="word-manager-outer col-xs-12 col-sm-6">
+      <div class="word-manager-outer col-xs-12 col-md-6">
         <p class="description">
-          Divide big wordlist into few portions to learn them day-by-day. Create as many dictionaries as you want. Eos
-          eveniet explicabo fugiat laboriosam maxime nemo, quos sapiente sint voluptate voluptatum. Facere in
-          praesentium quisquam rerum?
+          Unfortunately, you cannot handle all the language at once. But the greatest things in this world was created by
+          the small parts! Just divide big wordlist into few small(or not small)portions to learn them day-by-day.
+          Create as many dictionaries as you want to repeat them whenever you want. The simple word manager will help you
+          adding new words to learn!
         </p>
-        <button type="button" class="button open-button">Open manager</button>
+        <button type="button" class="button open-manager-button">Open manager</button>
         <div class="word-manager hidden invisible">
           <button type="button" class="close-icon"></button>
           <form action="">
@@ -77,11 +97,20 @@
           </form>
         </div>
       </div>
-      <div class="word-trainer-outer col-xs-12 col-sm-6">
+      <div class="image-side book-image col-md-6 hidden-sm hidden-xs">
+        <img src="img/img_img-book.png" alt="">
+      </div>
+    </div>
+    <div class="row">
+      <div class="image-side brain-image col-md-6  hidden-sm hidden-xs">
+        <img src="img/img_img-brain.png" alt="">
+      </div>
+      <div class="word-trainer-outer col-xs-12 col-md-6">
         <p class="description">
-          Architecto assumenda aut debitis delectus deserunt doloremque enim eveniet fuga fugit illo incidunt ipsam
-          laudantium magni officiis provident ratione repellat repudiandae sit sunt, temporibus totam, unde vel.
-          Aut consequatur ex quo sint soluta tempore.
+          Most effective plan in to learn about 5-10 words in a day. It seems to be not enough, if you work daily, after year
+          it will be 2000-3500 words! Not so bad, right? And these words, if properly studied, will be fixed in memory,
+          and you will actively use them in your speech. Thus, an ACTIVE, rather than a passive, vocabulary is formed.
+          Press the button below and try it!
         </p>
         <button type="button" class="button open-trainer-button">Open trainer</button>
         <div class="word-trainer hidden invisible">
@@ -101,12 +130,15 @@
         </div>
       </div>
     </div>
+
     <div class="row">
       <div class="go-to-wordlist">
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab commodi consequuntur, cumque cupiditate
-          doloremque esse ex exercitationem facere laboriosam nam obcaecati pariatur provident quae quidem quod sapiente
-          voluptate. Ab amet aut, autem consequuntur eius est illum necessitatibus quaerat reiciendis vel.</p>
-        <a class="button" href="page2.html" target="_blank">My wordlists</a>
+        <p class="description">
+          All wordlists you've added before, are stored directly in your browser! Press the button below and go to see what
+          words do you already have in your vocabulary. You can delete them if you already sure that you're done or keep
+          them to see your progress.
+        </p>
+        <a class="button go-to-wordlist-button" href="page2.html" target="_blank">Go to vocabulary<img src="./img/icon_arrow-right.png" alt="" class="hidden-xs"></a>
       </div>
     </div>
   </div>
@@ -117,7 +149,8 @@
     <span class="author"><span>Made by </span><a href="https://github.com/quinn71">Vladislav Logvinenko</a><br>
       <span class="socials">
         <a href="https://vk.com/november_rain7"><div class="social-icon icon-vk" target="_blank"></div></a>
-        <a href="https://www.linkedin.com/in/vladislav-logvinenko-714592101/" target="_blank"><div class="social-icon icon-linkedin"></div></a>
+        <a href="https://www.linkedin.com/in/vladislav-logvinenko-714592101/" target="_blank"><div
+            class="social-icon icon-linkedin"></div></a>
         <a href="https://github.com/quinn71"><div class="social-icon icon-github" target="_blank"></div></a>
       </span>
     </span>
@@ -127,10 +160,19 @@
       <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy" target="_blank">Dave Gandy</a>,
       <a href="http://www.flaticon.com/authors/elegant-themes" title="Elegant Themes" target="_blank">Elegant Themes</a>,
       from <a href="http://www.flaticon.com" title="Flaticon" target="_blank">www.flaticon.com</a> is licensed by
-      <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+      <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+         target="_blank">CC 3.0 BY</a>
     </span>
   </div>
 </footer>
+
+<div class="alert-box-outer">
+    <div class="alert-box">
+      <div class="close-icon"><img src="img/icon_delete.png" alt=""></div>
+      <p class="text-field"></p>
+      <button class="button ok-button">OK</button>
+    </div>
+</div>
 <script src="js/entry.js"></script>
 <script src="js/map.js"></script>
 <script src="js/Event.js"></script>
@@ -140,6 +182,7 @@
 <script src="js/WordManagerView.js"></script>
 <script src="js/Controller.js"></script>
 <script src="js/page1.js"></script>
-<script src="js/customPopups.js"></script>
+<script src="js/popups.js"></script>
+<script src="js/menu.js"></script>
 </body>
 </html>

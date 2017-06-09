@@ -1,22 +1,62 @@
-.element {
-  padding-top: 40px;
-  height: 100px;
-  transition: visibility 2.5s;
-  width: 100px; }
-
 body {
   margin: 0; }
 
 header {
-  padding: 40px 0 0;
-  margin-bottom: 60px; }
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #009fc7;
+  padding: 40px 0;
+  margin-bottom: 100px; }
+  @media (max-width: 960px) {
+    header {
+      margin-bottom: 100px; } }
+  @media (max-width: 725px) {
+    header {
+      margin-bottom: 60px; } }
 
 @media (max-width: 345px) {
   .container {
     width: 100vw; } }
 
 .row {
-  margin-bottom: 60px; }
+  margin-bottom: 160px; }
+  @media (max-width: 960px) {
+    .row {
+      margin-bottom: 100px; } }
+  @media (max-width: 725px) {
+    .row {
+      margin-bottom: 60px; } }
+
+.menu-bar {
+  position: relative;
+  padding-top: 2%; }
+  .menu-bar .menu-icon img {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10%;
+    top: 50%; }
+  .menu-bar .menu-icon:hover {
+    cursor: pointer; }
+  .menu-bar .menu-right {
+    float: right; }
+  .menu-bar .menu-left {
+    float: left; }
+  .menu-bar a {
+    color: #000;
+    margin-right: 20px;
+    text-transform: uppercase; }
+  .menu-bar a:hover {
+    color: #4cb7f5;
+    transition: .3s;
+    text-decoration: none; }
+  .menu-bar a:active,
+  .menu-bar a:visited {
+    text-decoration: none; }
+
+.menu-bar.open .menu-right, .menu-bar.open .menu-left {
+  float: none; }
+  .menu-bar.open .menu-right a, .menu-bar.open .menu-left a {
+    display: block; }
 
 .go-to-wordlist {
   margin: auto;
@@ -31,6 +71,11 @@ header {
 
 .logo-outer {
   text-align: center; }
+  .logo-outer img {
+    width: 40%; }
+    @media (max-width: 700px) {
+      .logo-outer img {
+        width: 80%; } }
 
 .logo-outer:before,
 .logo-outer:after {
@@ -41,7 +86,7 @@ header {
   position: relative;
   vertical-align: middle;
   width: 30%; }
-  @media (max-width: 625px) {
+  @media (max-width: 768px) {
     .logo-outer:before,
     .logo-outer:after {
       display: none; } }
@@ -60,15 +105,12 @@ header {
 .invisible {
   opacity: 0; }
 
-h1 {
-  text-align: center; }
-
 .word-manager-outer,
 .word-trainer-outer {
   text-align: center; }
 
 .description {
-  margin-bottom: 25px; }
+  margin-bottom: 65px; }
 
 .buttons-container {
   display: flex;
@@ -79,8 +121,19 @@ h1 {
   border: none;
   color: #fff;
   padding: 15px 30px;
+  position: relative;
   transition: all 0.2s;
   text-transform: uppercase; }
+  .button img {
+    position: absolute;
+    height: 2rem;
+    top: 50%;
+    right: 7%;
+    transform: translateY(-50%);
+    width: 2rem; }
+
+.button.go-to-wordlist-button {
+  padding-right: 7%; }
 
 .button:hover {
   background-color: #4cb7f5; }
@@ -95,6 +148,19 @@ h1 {
   flex-wrap: wrap;
   margin: auto;
   width: 90%; }
+
+@media (max-width: 960px) {
+  .image-side {
+    display: none; } }
+.image-side img {
+  margin: auto;
+  width: 70%; }
+
+.brain-image img {
+  float: left; }
+
+.book-image img {
+  float: right; }
 
 footer {
   border-top: 1px solid #aaaaaa;

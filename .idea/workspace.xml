@@ -2,13 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54f5fb7-eda9-4be7-9c4d-5148cb4833d9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/components.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/script1.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/customPopups.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/dictionary.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordListView.css" afterPath="$PROJECT_DIR$/css/WordListView.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordListView.css.map" afterPath="$PROJECT_DIR$/css/WordListView.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordListView.scss" afterPath="$PROJECT_DIR$/css/WordListView.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordManagerView.css" afterPath="$PROJECT_DIR$/css/WordManagerView.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordManagerView.css.map" afterPath="$PROJECT_DIR$/css/WordManagerView.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordManagerView.scss" afterPath="$PROJECT_DIR$/css/WordManagerView.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordTrainerView.css" afterPath="$PROJECT_DIR$/css/WordTrainerView.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordTrainerView.css.map" afterPath="$PROJECT_DIR$/css/WordTrainerView.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/WordTrainerView.scss" afterPath="$PROJECT_DIR$/css/WordTrainerView.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css.map" afterPath="$PROJECT_DIR$/css/css.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.scss" afterPath="$PROJECT_DIR$/css/css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/entryText.css" afterPath="$PROJECT_DIR$/css/entryText.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/entryText.css.map" afterPath="$PROJECT_DIR$/css/entryText.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/entryText.scss" afterPath="$PROJECT_DIR$/css/entryText.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts.css" afterPath="$PROJECT_DIR$/css/fonts.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Controller.js" afterPath="$PROJECT_DIR$/js/Controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/DictionaryModel.js" afterPath="$PROJECT_DIR$/js/DictionaryModel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/WordListView.js" afterPath="$PROJECT_DIR$/js/WordListView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/WordManagerView.js" afterPath="$PROJECT_DIR$/js/WordManagerView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/WordTrainerView.js" afterPath="$PROJECT_DIR$/js/WordTrainerView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/page1.js" afterPath="$PROJECT_DIR$/js/page1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/page2.js" afterPath="$PROJECT_DIR$/js/page2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page2.html" afterPath="$PROJECT_DIR$/page2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,31 +50,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mvc.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/mvc.js">
+      <file leaf-file-name="WordManagerView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/WordManagerView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="175" column="20" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+            <state relative-caret-position="1224">
+              <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordTrainerView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/WordTrainerView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding>
-                <element signature="e#35#61#0" expanded="false" />
-                <element signature="e#123#638#0" expanded="false" />
-                <element signature="e#686#849#0" expanded="false" />
-                <element signature="n#Event#0" expanded="false" />
-                <element signature="n#DictionaryModel#0" expanded="false" />
-                <element signature="n#WordListView#0" expanded="false" />
-                <element signature="n#!!block;n#constructor#0;n#WordListView#0" expanded="false" />
-                <element signature="n#WordAdderView#0" expanded="false" />
+                <element signature="e#422#559#0" expanded="false" />
+                <element signature="e#706#747#0" expanded="false" />
+                <element signature="n#!!block;n#addListenersToWordlistEvents#0;n#DictionaryController#0" expanded="false" />
+                <element signature="e#3009#3107#0" expanded="false" />
+                <element signature="e#3165#3263#0" expanded="false" />
+                <element signature="e#3327#3426#0" expanded="false" />
+                <element signature="e#3490#3757#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/fonts.css">
+      <file leaf-file-name="DictionaryModel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/DictionaryModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="1309">
+              <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordListView.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/WordListView.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordListView.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/WordListView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/page1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defaultDictionaries.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/defaultDictionaries.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+              <folding>
+                <element signature="e#23#909#0" expanded="false" />
+                <element signature="e#935#1446#0" expanded="false" />
+                <element signature="e#1461#2133#0" expanded="false" />
+                <element signature="e#2151#2705#0" expanded="false" />
+                <element signature="e#2727#4163#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,9 +161,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="852">
-              <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="510">
+              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,6 +176,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -88,6 +192,26 @@
       <find>bind</find>
       <find>no wor</find>
       <find>addButtonPressedEvent</find>
+      <find>icon</find>
+      <find>form</find>
+      <find>clear</find>
+      <find>desc</find>
+      <find>alert</find>
+      <find>button</find>
+      <find>confirm</find>
+      <find>#aaa</find>
+      <find>swal</find>
+      <find>logo</find>
+      <find>full</find>
+      <find>Are you</find>
+      <find>Are you sure?</find>
+      <find>menu</find>
+      <find>timeouts</find>
+      <find>._</find>
+      <find>—</find>
+      <find>—</find>
+      <find>&lt;…&gt;</find>
+      <find>],[</find>
     </findStrings>
     <replaceStrings>
       <replace>updateLocalStorage</replace>
@@ -95,6 +219,10 @@
       <replace>showNextWord</replace>
       <replace>this._dictionary</replace>
       <replace>addWordRequestEvent</replace>
+      <replace>timeouts1</replace>
+      <replace>.</replace>
+      <replace>политический</replace>
+      <replace>,</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -104,16 +232,54 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/components.js" />
-        <option value="$PROJECT_DIR$/css/css.scss" />
         <option value="$PROJECT_DIR$/js/dictionaryModel.js" />
         <option value="$PROJECT_DIR$/js/wordlistController.js" />
         <option value="$PROJECT_DIR$/js/wordlistView.js" />
         <option value="$PROJECT_DIR$/js/MVCEvents.js" />
         <option value="$PROJECT_DIR$/js/functions.js" />
         <option value="$PROJECT_DIR$/js/script1.js" />
-        <option value="$PROJECT_DIR$/css/fonts.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/WordlistView.js" />
+        <option value="$PROJECT_DIR$/js/Event.js" />
         <option value="$PROJECT_DIR$/js/mvc.js" />
+        <option value="$PROJECT_DIR$/js/script_page1.js" />
+        <option value="$PROJECT_DIR$/js/wordlistPageScript.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/myWordlists.html" />
+        <option value="$PROJECT_DIR$/css/WordManagerView.css" />
+        <option value="$PROJECT_DIR$/css/entryText.css" />
+        <option value="$PROJECT_DIR$/js/map.js" />
+        <option value="$PROJECT_DIR$/storage/defaultDictionaries.json" />
+        <option value="$PROJECT_DIR$/js/entry.js" />
+        <option value="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.css" />
+        <option value="$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.js" />
+        <option value="$PROJECT_DIR$/node_modules/sweetalert2/src/sweetalert2.scss" />
+        <option value="$PROJECT_DIR$/css/popups.scss" />
+        <option value="$PROJECT_DIR$/css/WordManagerView.scss" />
+        <option value="$PROJECT_DIR$/js/popups.js" />
+        <option value="$PROJECT_DIR$/css/WordTrainerView.scss" />
+        <option value="$PROJECT_DIR$/js/page2.js" />
+        <option value="$PROJECT_DIR$/css/entryText.scss" />
+        <option value="$PROJECT_DIR$/css/css.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/footer-to-bottom.css" />
+        <option value="$PROJECT_DIR$/page2.html" />
+        <option value="$PROJECT_DIR$/js/animations.js" />
+        <option value="$PROJECT_DIR$/test/test.css" />
+        <option value="$PROJECT_DIR$/test/test.html" />
+        <option value="$PROJECT_DIR$/test/test.js" />
+        <option value="$PROJECT_DIR$/js/customPopups.js" />
+        <option value="$PROJECT_DIR$/css/fonts.css" />
+        <option value="$PROJECT_DIR$/js/menu.js" />
+        <option value="$PROJECT_DIR$/js/page1.js" />
+        <option value="$PROJECT_DIR$/js/WordManagerView.js" />
+        <option value="$PROJECT_DIR$/js/WordTrainerView.js" />
+        <option value="$PROJECT_DIR$/js/Controller.js" />
+        <option value="$PROJECT_DIR$/defaultDictionaries.json" />
+        <option value="$PROJECT_DIR$/dics.html" />
+        <option value="$PROJECT_DIR$/js/DictionaryModel.js" />
+        <option value="$PROJECT_DIR$/css/WordListView.scss" />
+        <option value="$PROJECT_DIR$/js/WordListView.js" />
       </list>
     </option>
   </component>
@@ -135,6 +301,25 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JsonStandardCompliance</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -153,6 +338,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -163,6 +349,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MakeYourDictionary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MakeYourDictionary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MakeYourDictionary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -190,56 +390,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MakeYourDictionary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MakeYourDictionary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MakeYourDictionary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MakeYourDictionary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JSON" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/front-end/myprojects/MakeYourDictionary/css/css.scss" />
   </component>
-  <component name="RunManager" selected="Node.js.functions.js">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\front-end\myprojects\MakeYourDictionary\storage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.test.js">
     <configuration default="false" name="functions.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="functions.js" working-dir="$PROJECT_DIR$/js">
+      <method />
+    </configuration>
+    <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -301,12 +483,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.functions.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.functions.js" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.functions.js" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +514,50 @@
       <workItem from="1490306890645" duration="1097000" />
       <workItem from="1490378619675" duration="11638000" />
       <workItem from="1490449300139" duration="7899000" />
-      <workItem from="1490566495901" duration="1728000" />
+      <workItem from="1490566495901" duration="5385000" />
+      <workItem from="1490901970444" duration="1408000" />
+      <workItem from="1491258411583" duration="3927000" />
+      <workItem from="1491294192305" duration="3198000" />
+      <workItem from="1491427058967" duration="596000" />
+      <workItem from="1491681370387" duration="6905000" />
+      <workItem from="1491736293935" duration="3610000" />
+      <workItem from="1491746619585" duration="1095000" />
+      <workItem from="1491950479366" duration="4290000" />
+      <workItem from="1493124659034" duration="596000" />
+      <workItem from="1493137973438" duration="3853000" />
+      <workItem from="1493309218695" duration="548000" />
+      <workItem from="1493310370207" duration="6070000" />
+      <workItem from="1493412660788" duration="3969000" />
+      <workItem from="1493498009728" duration="1903000" />
+      <workItem from="1493587523138" duration="1206000" />
+      <workItem from="1493892424112" duration="4092000" />
+      <workItem from="1493924455325" duration="627000" />
+      <workItem from="1494012136379" duration="4276000" />
+      <workItem from="1494176410841" duration="643000" />
+      <workItem from="1494189959441" duration="720000" />
+      <workItem from="1494282902156" duration="5701000" />
+      <workItem from="1494539930603" duration="3945000" />
+      <workItem from="1494609761630" duration="595000" />
+      <workItem from="1494628786318" duration="8078000" />
+      <workItem from="1494708132619" duration="2037000" />
+      <workItem from="1494782030507" duration="4924000" />
+      <workItem from="1494800925999" duration="1750000" />
+      <workItem from="1494884738495" duration="593000" />
+      <workItem from="1494968456320" duration="6577000" />
+      <workItem from="1495050216171" duration="7122000" />
+      <workItem from="1495232980544" duration="7266000" />
+      <workItem from="1495288859933" duration="7229000" />
+      <workItem from="1495310387553" duration="979000" />
+      <workItem from="1495311524446" duration="11709000" />
+      <workItem from="1495383186544" duration="643000" />
+      <workItem from="1495389917961" duration="6518000" />
+      <workItem from="1495401540467" duration="4192000" />
+      <workItem from="1495811804224" duration="511000" />
+      <workItem from="1495813294564" duration="2329000" />
+      <workItem from="1495822782196" duration="4247000" />
+      <workItem from="1495896179041" duration="3400000" />
+      <workItem from="1495907275397" duration="7066000" />
+      <workItem from="1495917845373" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="add possibility to delete words one by one">
       <created>1489270036991</created>
@@ -343,29 +570,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49552000" />
+    <option name="totallyTimeSpent" value="204797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.170347" sideWeight="0.5527086" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.170347" sideWeight="0.44729137" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.01104101" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,223 +607,258 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/functions.js" />
-    <entry file="file://$PROJECT_DIR$/js/script1.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js" />
-    <entry file="file://$PROJECT_DIR$/js/components.js" />
-    <entry file="file://$PROJECT_DIR$/css/css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/icon_delete-icon-blue.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script1.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js" />
-    <entry file="file://$PROJECT_DIR$/js/components.js" />
-    <entry file="file://$PROJECT_DIR$/css/css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script1.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js" />
-    <entry file="file://$PROJECT_DIR$/js/components.js" />
-    <entry file="file://$PROJECT_DIR$/css/css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script1.js" />
-    <entry file="file://$PROJECT_DIR$/js/functions.js" />
-    <entry file="file://$PROJECT_DIR$/js/components.js" />
-    <entry file="file://$PROJECT_DIR$/css/css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="5" lean-forward="false" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script1.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="39" lean-forward="false" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js" />
-    <entry file="file://$PROJECT_DIR$/js/components.js" />
-    <entry file="file://$PROJECT_DIR$/css/css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="143" column="5" lean-forward="true" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script1.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="95" lean-forward="false" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/functions.js" />
-    <entry file="file://$PROJECT_DIR$/js/components.js" />
-    <entry file="file://$PROJECT_DIR$/css/css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fonts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script1.js" />
-    <entry file="file://$PROJECT_DIR$/img/icon_delete-icon-blue.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1328">
-          <caret line="194" column="18" lean-forward="true" selection-start-line="194" selection-start-column="18" selection-end-line="194" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/dictionaryModel.js" />
-    <entry file="file://$PROJECT_DIR$/js/wordlistView.js" />
-    <entry file="file://$PROJECT_DIR$/js/MVCEvents.js" />
     <entry file="file://$PROJECT_DIR$/js/wordlistController.js" />
     <entry file="file://$PROJECT_DIR$/js/components.js" />
     <entry file="file://$PROJECT_DIR$/js/functions.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/script1.js" />
+    <entry file="file://$PROJECT_DIR$/js/mvc.js" />
+    <entry file="file://$PROJECT_DIR$/js/script_page1.js" />
+    <entry file="file://$PROJECT_DIR$/js/wordlistPageScript.js" />
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/test.js" />
+    <entry file="file://$PROJECT_DIR$/myWordlists.html" />
+    <entry file="file://$PROJECT_DIR$/css/WordManagerView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/entryText.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/defaultDictionaries.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2/src/sweetalert2.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2/README.md" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.min.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2/src/sweetalert2.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2/src/sweetalert2.scss" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2/dist/sweetalert2.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert2/src/colors.scss" />
+    <entry file="file://$PROJECT_DIR$/css/WordManagerView.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/footer-to-bottom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.js" />
+    <entry file="file://$PROJECT_DIR$/test/test.css" />
+    <entry file="file://$PROJECT_DIR$/test/test.html" />
+    <entry file="file://$PROJECT_DIR$/js/animations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/popups.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/page2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script1.js" />
+    <entry file="file://$PROJECT_DIR$/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/entryText.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/customPopups.js" />
+    <entry file="file://$PROJECT_DIR$/design/img-2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/mvc.js">
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="175" column="20" lean-forward="false" selection-start-line="175" selection-start-column="20" selection-end-line="175" selection-end-column="20" />
+        <state relative-caret-position="119">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/popups.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/WordTrainerView.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/WordTrainerView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/WordManagerView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding>
-            <element signature="e#35#61#0" expanded="false" />
-            <element signature="e#123#638#0" expanded="false" />
-            <element signature="e#686#849#0" expanded="false" />
-            <element signature="n#Event#0" expanded="false" />
-            <element signature="n#DictionaryModel#0" expanded="false" />
-            <element signature="n#WordListView#0" expanded="false" />
-            <element signature="n#!!block;n#constructor#0;n#WordListView#0" expanded="false" />
-            <element signature="n#WordAdderView#0" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#422#559#0" expanded="false" />
+            <element signature="e#706#747#0" expanded="false" />
+            <element signature="n#!!block;n#addListenersToWordlistEvents#0;n#DictionaryController#0" expanded="false" />
+            <element signature="e#3009#3107#0" expanded="false" />
+            <element signature="e#3165#3263#0" expanded="false" />
+            <element signature="e#3327#3426#0" expanded="false" />
+            <element signature="e#3490#3757#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dics.html" />
+    <entry file="file://$PROJECT_DIR$/js/page1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/defaultDictionaries.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#909#0" expanded="false" />
+            <element signature="e#935#1446#0" expanded="false" />
+            <element signature="e#1461#2133#0" expanded="false" />
+            <element signature="e#2151#2705#0" expanded="false" />
+            <element signature="e#2727#4163#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/DictionaryModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/WordListView.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="24" lean-forward="false" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/WordListView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

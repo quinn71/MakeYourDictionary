@@ -1,20 +1,3 @@
-function  post(word, translation) {
-  const xhr = new XMLHttpRequest();
-  const url = './back/httpHandle.cgi';
-  xhr.open('POST', url, true);
-  let params = 'word=' + word + '&translation' + translation;
-
-  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
-  xhr.onreadystatechange = function() {
-    if(xhr.readyState == 4 && xhr.status == 200) {
-      alert(xhr.responseText);
-    }
-  }
-
-  xhr.send(params);
-}
-
 class DictionaryModel {
 
   constructor() {
@@ -30,6 +13,9 @@ class DictionaryModel {
     this.newDictionaryCreatedEvent = new Event();
     this.dictionaryUpdatedEvent = new Event();
     this.dictionaryRemovedEvent = new Event();
+
+    this.addWord = this.addWord.bind(this);
+    this.createDictionary = this.createDictionary.bind(this);
   }
 
   addWord(dictionaryName, word, translation) {
@@ -42,14 +28,11 @@ class DictionaryModel {
   }
 
   clear(dictionaryName) {
-    let confirmed = confirm("Are you sure?");
-    if (confirmed) {
-      let dictionary = this.getDictionary(dictionaryName);
-      dictionary.clear();
-      this._dictionaries[dictionaryName] = dictionary;
-      this.updateStorage();
-      this.dictionaryClearedEvent.notify(dictionaryName);
-    }
+    let dictionary = this.getDictionary(dictionaryName);
+    dictionary.clear();
+    this._dictionaries[dictionaryName] = dictionary;
+    this.updateStorage();
+    this.dictionaryClearedEvent.notify(dictionaryName);
   }
 
   createDictionary(dictionaryName) {
@@ -76,6 +59,34 @@ class DictionaryModel {
       return new Map();
     let dictionary = [...this._dictionaries[name]];
     return new Map(dictionary);
+  }
+
+  loadDefaultDictionaries() {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', './storage/defaultDictionaries.json');
+
+    const _this = this;
+    xhr.addEventListener("readystatechange",  function() {
+      if(xhr.readyState == 4) {
+        const dictionaries = JSON.parse(xhr.responseText);
+        for(let dictionaryName in dictionaries) {
+          if(dictionaries.hasOwnProperty(dictionaryName))
+          {
+            _this.createDictionary(dictionaryName);
+            let dictionary = dictionaries[dictionaryName];
+            dictionary.forEach(entry => {
+              let word = entry[0];
+              let translation = entry[1];
+
+              _this.addWord(dictionaryName, word, translation);
+            })
+          }
+        }
+
+      }
+    });
+    xhr.send();
+
   }
 
   removeWord(dictionaryName, word) {
@@ -109,7 +120,6 @@ class DictionaryModel {
     this._dictionaries = dictionaries;
   }
 
-
   updateStorage() {
     let dictionaries = this._dictionaries;
 
@@ -123,18 +133,30 @@ class DictionaryModel {
 
     localStorage.dictionaries = JSON.stringify(dictionaries);
   }
+}
 
-  getFromServer() {
-    let xhr = new XMLHttpRequest();
-    xhr.open('GET', 'Dictionaries_test.json', false);
-    xhr.send();
+function stopPageExecution(color) {
+  const body = document.body;
+  const cover = document.createElement('div');
+  cover.className = 'execution-stopper';
+  cover.style.position = 'fixed';
+  cover.style.width = '100vw';
+  cover.style.height = '100vh';
+  cover.style.top = '0';
+  cover.style.left = '0';
+  cover.style.backgroundColor = color || '#aaaaaa';
+  cover.style.opacity = '0.5';
+  cover.style.cursor = 'not-allowed';
+  cover.style.zIndex = '9998';
 
-    if (xhr.status != 200) {
-      alert( xhr.status + ': ' + xhr.statusText );
-    } else {
-      alert( xhr.responseText );
-    }
-  }
+  body.scroll = 'no';
 
+  body.appendChild(cover);
+}
 
+function resumePageExecution() {
+  const body = document.body;
+  const cover = document.querySelector('.execution-stopper');
+
+  body.removeChild(cover);
 }

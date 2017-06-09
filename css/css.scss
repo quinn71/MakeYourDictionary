@@ -3,21 +3,25 @@ $col_darkblue: #009fc7;
 $col_grey: #aaaaaa;
 $col_lightgrey: #F6F6F6;
 
-.element {
-  padding-top: 40px;
-  height: 100px;
-  transition: visibility 2.5s;
-  width: 100px;
-}
-
 
 body {
   margin: 0;
 }
 
 header {
-  padding: 40px 0 0;
-  margin-bottom: 60px;
+
+  background-color: $col_lightgrey;
+  border-bottom: 1px solid $col_darkblue;
+  padding: 40px 0;
+  margin-bottom: 100px;
+
+  @media (max-width: 960px) {
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: 725px) {
+    margin-bottom: 60px;
+  }
 }
 
 .container {
@@ -27,10 +31,68 @@ header {
 }
 
 .row {
-  margin-bottom: 60px;
+  margin-bottom: 160px;
+  
+  @media (max-width: 960px) {
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: 725px) {
+    margin-bottom: 60px;
+  }
 }
 
 
+.menu-bar {
+  position: relative;
+  .menu-icon {
+    img {
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      right: 10%;
+      top: 50%;
+    }
+  }
+
+  .menu-icon:hover {
+    cursor: pointer;
+  }
+
+  padding-top: 2%;
+  .menu-right {
+    float: right;
+  }
+  .menu-left {
+    float: left;
+  }
+
+  a {
+    color: #000;
+    margin-right: 20px;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    color: $col_lightblue;
+    transition: .3s;
+    text-decoration: none;
+  }
+
+  a:active,
+  a:visited {
+    text-decoration: none;
+  }
+}
+.menu-bar.open {
+  .menu-right,.menu-left {
+    float: none;
+
+    a {
+      display: block;
+    }
+  }
+}
 
 .go-to-wordlist {
   margin:auto;
@@ -46,9 +108,23 @@ header {
   }
 }
 
+
+
 .logo-outer {
-  text-align: center;
+  text-align:center;
+
+  .logo {
+  }
+
+  img {
+    width: 40%;
+    
+    @media (max-width: 700px) {
+      width: 80%;
+    }
+  }
 }
+
 
 .logo-outer:before,
 .logo-outer:after {
@@ -60,7 +136,7 @@ header {
   vertical-align: middle;
   width: 30%;
 
-  @media (max-width: 625px) {
+  @media (max-width: 768px) {
     display: none;
   }
 }
@@ -83,17 +159,13 @@ header {
   opacity: 0;
 }
 
-h1 {
-  text-align: center;
-}
-
 .word-manager-outer,
 .word-trainer-outer {
   text-align: center;
 }
 
 .description {
-  margin-bottom: 25px;
+  margin-bottom: 65px;
 }
 
 
@@ -107,8 +179,21 @@ h1 {
   border: none;
   color: #fff;
   padding: 15px 30px;
+  position: relative;
   transition: all 0.2s;
   text-transform: uppercase;
+
+  img {
+    position: absolute;
+    height: 2rem;
+    top: 50%; right: 7%;
+    transform: translateY(-50%);
+    width: 2rem;
+  }
+}
+
+.button.go-to-wordlist-button {
+  padding-right: 7%;
 }
 
 .button:hover {
@@ -128,6 +213,27 @@ h1 {
   width: 90%;
 }
 
+.image-side {
+  @media (max-width: 960px) {
+    display: none;
+  }
+
+  img {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+.brain-image img {
+  float: left;
+}
+
+.book-image img {
+  float: right;
+}
+
+
+
 footer {
   border-top: 1px solid $col_grey;
   background: $col_lightgrey;
@@ -135,7 +241,4 @@ footer {
   .footer-inner {
     text-align: center;
   }
-
-
-
 }

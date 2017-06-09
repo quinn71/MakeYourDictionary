@@ -1,0 +1,297 @@
+{
+  "Books and Films": [
+    [
+      "scary",
+      "страшный"
+    ],
+    [
+      "exciting",
+      "увлекательный"
+    ],
+    [
+      "educational",
+      "познавательный"
+    ],
+    [
+      "weird",
+      "странный"
+    ],
+    [
+      "colourful",
+      "красочный"
+    ],
+    [
+      "complicated",
+      "сложный для понимания"
+    ],
+    [
+      "heart",
+      "wrenching,душераздирающий"
+    ],
+    [
+      "dull",
+      "скучный"
+    ],
+    [
+      "unusual",
+      "необычный"
+    ],
+    [
+      "brilliant",
+      "великолепный"
+    ],
+    [
+      "impressive",
+      "впечатляющий"
+    ],
+    [
+      "amazing",
+      "удивительны"
+    ],
+    [
+      "entertaining",
+      "забавный"
+    ],
+    [
+      "heart-warming",
+      "душевный"
+    ],
+    [
+      "ridiculous",
+      "нелепый"
+    ],
+    [
+      "depressing",
+      "депрессивный"
+    ],
+    [
+      "moving",
+      "трогательный"
+    ]
+  ],
+  "Personality Traits": [
+    [
+      "big-headed",
+      "хвастливый"
+    ],
+    [
+      "assertive",
+      "положительный"
+    ],
+    [
+      "cold-blooded",
+      "хладнкровный"
+    ],
+    [
+      "conceited",
+      "самодовольный"
+    ],
+    [
+      "dedicated",
+      "преданный"
+    ],
+    [
+      "grumpy",
+      "сварливый"
+    ],
+    [
+      "irritable",
+      "раздражительный"
+    ],
+    [
+      "secretive",
+      "скрытный"
+    ],
+    [
+      "timid",
+      "робкий"
+    ],
+    [
+      "vain",
+      "тщеславный"
+    ]
+  ],
+  "Hobbies": [
+    [
+      "backgammon",
+      "нарды"
+    ],
+    [
+      "balroom dancing",
+      "бальные танцы"
+    ],
+    [
+      "basketball",
+      "баскетбол"
+    ],
+    [
+      "billiards",
+      "бильярд"
+    ],
+    [
+      "bowling",
+      "боулинг"
+    ],
+    [
+      "cinema",
+      "кино"
+    ],
+    [
+      "circus",
+      "цирк"
+    ],
+    [
+      "checkers",
+      "шашки"
+    ],
+    [
+      "cycling",
+      "кататься на велосипеде"
+    ],
+    [
+      "karting",
+      "картинг"
+    ],
+    [
+      "music",
+      "музыка"
+    ],
+    [
+      "skiing",
+      "лыжи"
+    ],
+    [
+      "tennis",
+      "теннис"
+    ],
+    [
+      "winemaking",
+      "виноделие"
+    ]
+  ],
+  "Just Words": [
+    [
+      "bearing in mind",
+      "держа в голове"
+    ],
+    [
+      "aside from",
+      "помимо"
+    ],
+    [
+      "maintain",
+      "поддерживать"
+    ],
+    [
+      "devote",
+      "посвящать"
+    ],
+    [
+      "by and large",
+      "в общем и целом"
+    ],
+    [
+      "enrichment",
+      "обогащение"
+    ],
+    [
+      "in the long run",
+      "в конце концов"
+    ],
+    [
+      "personality trait",
+      "черта личности"
+    ],
+    [
+      "stride",
+      "большой шаг"
+    ],
+    [
+      "whereas",
+      "несмотря на то, что"
+    ]
+  ],
+  "Political Life": [
+    [
+      "politics",
+      "политика как политическая жизнь"
+    ],
+    [
+      "be interested in politics",
+      "интересоваться политикой"
+    ],
+    [
+      "be indifferent to politics",
+      "быть безразличным к политике"
+    ],
+    [
+      "a policy",
+      "курс, стратегия"
+    ],
+    [
+      "an economic policy",
+      "экономическая политика"
+    ],
+    [
+      "political",
+      "политический"
+    ],
+    [
+      "a political leader",
+      "политический лидер"
+    ],
+    [
+      "political issues",
+      "политический вопросы"
+    ],
+    [
+      "political views",
+      "политический взгляды"
+    ],
+    [
+      "a political system",
+      "политический система"
+    ],
+    [
+      "a political party",
+      "политический партия"
+    ],
+    [
+      "two major political parties",
+      "две главные политические партии"
+    ],
+    [
+      "a political career",
+      "политический карьера"
+    ],
+    [
+      "a politician",
+      "политик"
+    ],
+    [
+      "support a candidate",
+      "поддерживать кандидата"
+    ],
+    [
+      "have the right to vote",
+      "иметь право участвовать в голосовании"
+    ],
+    [
+      "join a political party",
+      "вступить в политическую партию"
+    ],
+    [
+      "vote for a candidate",
+      "голосовать за кандидата"
+    ],
+    [
+      "take part in election",
+      "принимать участие в выборах"
+    ],
+    [
+      "make my choice",
+      "сделать выбор"
+    ]
+  ]
+}
+
